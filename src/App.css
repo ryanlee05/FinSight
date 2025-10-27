@@ -1,14 +1,113 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 
 .card {
   padding: 2em;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .read-the-docs {
   color: #888;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.container h2 {
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 3px 6px;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  align-items: center;
+  gap: .3rem;
+}
+
+.navbar h1 {
+  margin-left: 4rem;
+  color: black;
+  font-size: 2rem;
+}
+
+.navbar h2 {
+  color: black;
+  margin-bottom: .8rem
+}
+
+.stats {
+  margin-top: .8rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.stats h2 {
+  color: black;
+}
+
+.search {
+  margin-top: .5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .5rem;
+  justify-content: space-evenly;
+}
+
+.search_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .5rem;
+}
+
+.search_bar h3 {
+  color: black;
+}
+
+.search input {
+  height: 1.4rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.header h3 {
+  color: black;
+}
+
+.analysis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.stock_data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.stock_data p {
+  color: black;
 }
