@@ -89,6 +89,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  width: 50vw;
 }
 
 .header h3 {
@@ -99,7 +100,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  width: 50vw;
 }
+
 
 .stock_data {
   display: flex;
@@ -110,4 +113,40 @@ body {
 
 .stock_data p {
   color: black;
+}
+
+.stockDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 3rem;
+  align-items: center;
+}
+
+.stockDescription h2 {
+  color: black;
+}
+
+.stockDescription h1 {
+  color: black;
+}
+
+.stockDescription button {
+  width: 8rem;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.graphs {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin-top: 3rem;
 }
